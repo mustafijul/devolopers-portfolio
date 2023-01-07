@@ -1,0 +1,14 @@
+.banner{
+    background-image: url('../A-repo/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    font-size: 65px;
+    margin-top: 216;
+    margin-bottom: 364;
+    margin-left: 845;
+    margin-right: 230;
+}
+h1{
+    color: red;
+}
