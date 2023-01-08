@@ -7,7 +7,7 @@ section{
 /* styles-banner */
 
 .header{
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     width: 1600px;
     height: 808px;
     left: 30px;
@@ -89,7 +89,7 @@ section{
 /* gradient section */
 .gradient{
     background-repeat: no-repeat;
-    background-image: url(/images/watch.png);
+    background-image: url(../images/watch.png);
     width: 1140px;
     height: 300px;
     margin-left: 230px;
