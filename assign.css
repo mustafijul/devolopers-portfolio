@@ -1,4 +1,188 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    margin-top: 129px; 
+}
 /* styles-banner */
+
 .header{
     background-image: url(/images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    left: 30px;
+    top: 24px;
+    margin-bottom: 107px;
+}
+.pri-button{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    background-color: #ffffff;
+}
+.banner{
+    color: #ffffff;
+    padding-top: 200px;
+    margin: 0px 260px 190px 845px;
+    text-align: right;
+}
+.hardy-failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 107px;
+    margin-right: 432px;
+    
+}
+.hardy-title{
+    /* margin: 330px 880px 432px 0px; */
+    padding-left: 87px;
+}
+.hardy-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-left: 87px;
+}
+.img{
+    margin-left: 206px;
+}
+.right-sign{
+    color: green;
+}
+.list-style{
+    list-style: none;
+}
+/* my plans section */
+
+
+.plans{
+    /* padding-left: 765px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skill-descrip{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+.skills-container{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    gap: 86px;
+
+}
+.skill-title{
+    
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* gradient section */
+.gradient{
+    background-repeat: no-repeat;
+    background-image: url(/images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    margin-right: 230px;
+    align-items: center;
+    padding-right: 230px;
+    position: relative;
+
+}
+.gradient img{
+    max-width: 100%;
+    height: auto;
+}
+.watch-image{
+   
+    
+    width: 1140px;
+    height: 300px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.gradient-description{
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    color: #FFFFFF;
+    margin-bottom: 189px;
+    text-align: left;
+    padding: 50px;
+}
+.gradient-button{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    background-color: #ffffff;
+}
+/* contact section */
+.contact-section{
+    background: #151414;    
+    width: 1600px;
+    height: 577px;
+    display: flex;
+
+}
+
+.contact-tile{
+    
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.contact-email{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+.contact-phone{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;   
+}
+.about-contact2{
+   
+}
+.contact-subscribe{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.Email{
+    width: 325px;
+height: 64px;
+background: #151414;
+padding: 21px 158px 22px 21px;
+border: 2px solid white;
+margin-bottom: 20px;
+}
+::-webkit-input-placeholder{
+    color: #F3F3F3;
+}
+.subscribe{
+    padding: 20px 36px;
+    background: #005FAC;
+    color: #F3F3F3;
 }
